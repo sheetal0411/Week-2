@@ -1,0 +1,15 @@
+1. Swap Two Variables Without Using a Third Variable
+Write a JavaScript program to swap the values of two variables without using a third variable.
+Example:
+
+
+let a = 5, b = 10:
+// After swapping: a = 10, b = 5
+console.log("Before swapping: a =", a, "b =", b);
+ // Swap the values
+ a = a + b;
+ b = a - b; 
+ a = a - b; 
+// After swapping 
+console.log("After swapping: a =", a, "b =", b);
+

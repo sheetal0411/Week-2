@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dec2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+/* Adventure card styling */
+.adventure-card {
+    background-color: #8cc1c1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.adventure-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Card image styling */
+.card-header {
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #fe0707;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #090909;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    background-color:rgb(196, 147, 13);
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #d06e0b;
+}

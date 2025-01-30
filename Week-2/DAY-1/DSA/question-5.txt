@@ -1,0 +1,22 @@
+5. Count the Number of Vowels in a String
+Write a function that takes a string as input and returns the count of vowels (a, e, i, o, u).
+Example:
+
+
+function countVowels(str) {
+  let count = 0; 
+const vowels = ['a', 'e', 'i', 'o', 'u']; 
+for (let char of str.toLowerCase())
+ { 
+if (vowels.includes(char))
+ { count++;
+ } 
+} 
+return count;
+}
+console.log(countVowels("javascript"));  // Output: 3
+
+
+
+
+

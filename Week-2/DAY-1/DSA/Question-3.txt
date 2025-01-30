@@ -1,0 +1,11 @@
+3. Check if a Number is Even or Odd
+Write a JavaScript function to check if a given number is even or odd.
+Example:
+
+
+function isEvenOrOdd(num) {
+  return (num % 2 === 0) ? "Even" : "Odd";
+}
+console.log(isEvenOrOdd(7));  // Output: "Odd"
+console.log(isEvenOrOdd(8));  // Output: "Even"
+

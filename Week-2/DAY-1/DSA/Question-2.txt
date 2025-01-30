@@ -1,0 +1,9 @@
+2. Find the Largest of Three Numbers
+Write a function that takes three numbers as input and returns the largest number.
+Example:
+
+function findMax(a, b, c) {
+  return (a > b && a > c) ? a : (b > c ? b : c);
+}
+console.log(findMax(10, 25, 15)); // Output: 25
+
