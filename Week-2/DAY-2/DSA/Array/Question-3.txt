@@ -1,0 +1,18 @@
+
+Find the Largest Number in an Array
+Write a function to return the largest number from an array.
+Example:
+
+
+function findLargest(arr) {
+  let max = arr[0]; 
+  for (let num of arr) {
+   if (num > max) { 
+     max = num;
+     } 
+   }
+   return max; 
+  }
+console.log(findLargest([10, 5, 8, 20]));  // Output: 20
+
+

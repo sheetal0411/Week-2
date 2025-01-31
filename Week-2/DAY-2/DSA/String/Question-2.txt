@@ -1,0 +1,19 @@
+
+Check if a String is Palindrome
+Write a function to check if a string is a palindrome.
+Example:
+
+
+
+function isPalindrome(str) {
+  Let left =0,right=str.length-1;
+while(left<right){
+if(str[left]!==str[right])return false;
+Left++;
+Right—-;
+}
+Return ture;
+}
+console.log(isPalindrome("madam"));  // Output: true
+console.log(isPalindrome("hello"));  // Output: false
+

@@ -1,0 +1,17 @@
+Check if an Element Exists in an Array
+Write a function to check if a number exists in an array.
+Example:
+
+
+function isElementPresent(arr, num) {
+   for (let element of arr) {
+   if (element === num) {
+      return true;
+     }
+   }
+  return false;  
+}
+console.log(isElementPresent([1, 2, 3, 4], 3));  // Output: true
+console.log(isElementPresent([1, 2, 3, 4], 5));  // Output: false
+
+

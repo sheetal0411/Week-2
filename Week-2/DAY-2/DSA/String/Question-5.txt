@@ -1,0 +1,18 @@
+Find the First Non-Repeating Character in a String
+Write a function to find the first non-repeating character in a string.
+Example:
+
+
+function firstNonRepeating(str) {
+  let charCount = {};
+  for (let char of str) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+  for (let char of str) {
+    if (charCount[char] === 1) return char;
+  }
+  return null;
+}
+console.log(firstNonRepeating("swiss"));  // Output: "w"
+
+

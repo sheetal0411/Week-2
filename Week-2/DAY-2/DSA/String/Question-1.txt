@@ -1,0 +1,14 @@
+Find the Length of a String
+Write a function to find the length of a string without using .length property
+
+
+function stringLength(str) {
+  Let count =0;
+for(let char of str){
+Count++;
+}
+Return count;
+}
+console.log(stringLength("hello"));  // Output: 5
+
+

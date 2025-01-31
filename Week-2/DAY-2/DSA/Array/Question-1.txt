@@ -1,0 +1,15 @@
+Find the Length of an Array
+Write a JavaScript function to find the length of an array without using the .length property.
+Example:
+
+
+function arrayLength(arr) {
+  // Your code here
+  let count = 0; 
+  for (let _ of arr) { 
+    Count++;
+  }
+  return count;
+}
+console.log(arrayLength([1, 2, 3, 4]));  // Output: 4
+
