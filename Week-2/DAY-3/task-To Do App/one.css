@@ -1,0 +1,95 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 200px;
+            background-color: #dbacce;
+            transition: background 0.5s;
+            
+
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: rgb(238, 179, 17);
+        
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(212, 170, 170);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(237, 33, 33, 0.1);
+            transition: background 0.3s;
+            background-color: #59a394;
+        }
+        .dark-mode .container {
+            background: #712917;
+            
+        }
+        input {
+            width: 70%;
+            padding: 10px;
+            border-radius: 10px;
+            border-color: #d7cd13;
+        }
+        button {
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            border-color: rgb(214, 212, 98);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #9a1f1f;
+            padding: 8px;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.3s, opacity 0.3s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+            border-radius: 15px;
+            
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fadeOut {
+            animation: fadeOut 0.5s forwards;
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .priority {
+            background: #a893ac;
+        }
+        .error {
+            color: rgb(28, 21, 232);
+        }
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #baaa50;
+            border-radius:50px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            width: 0;
+            background: #4caf50;
+            transition: width 0.3s;
+        }
+    
